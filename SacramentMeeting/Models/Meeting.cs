@@ -22,8 +22,12 @@ namespace SacramentMeeting.Models
         public int SacramentHymn { get; set; }
         public int ClosingHymn { get; set; }
         //speakers and topics
-        public ICollection<Speaker> Speakers { get; set; }
-        public ICollection<Topic> Topics { get; set; }
+        public string Speaker1 { get; set; }
+        public string Topic1 { get; set; }
+        public string Speaker2 { get; set; }
+        public string Topic2 { get; set; }
+        public string Speaker3 { get; set; }
+        public string Topic3 { get; set; }
     }
 }
 
